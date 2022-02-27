@@ -6,7 +6,7 @@ import currencyRates
 
 driver = webdriver.Chrome()
 
-mainObj = currencyRates.Main()
+mainObj = currencyRates.CurrencyRates()
 mainObj.GetCurrencyRates(driver)
 
 # testObj = test.Test()
